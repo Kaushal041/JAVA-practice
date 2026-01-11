@@ -1,0 +1,3 @@
+Welcome to file Handling
+I am studying in BCA
+Bye!...
