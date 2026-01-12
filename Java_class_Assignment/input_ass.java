@@ -23,6 +23,6 @@ public class input_ass{
             for(int i=0;i<3;i++){
                 System.out.print(num[i] + " ");
             }
-
+            sc.close();
     }
 }
