@@ -1,11 +1,9 @@
-package DSA_Assignment;
-
 public class Binary_serach {
     public static void main(String[] args) {
         
         //----------------- Binary Search ----------------//
         int [] arr = {10,20,30,40,50,60,70,80,90,100};
-        int target = 1000;
+        int target = 100;
         int start = 0;
         int end = arr.length-1;
         int mid = (start + end)/2;
@@ -13,7 +11,7 @@ public class Binary_serach {
         int i=0;
         while (i<arr.length){
             if (target==arr[mid]){
-                System.out.println("Element found : " + (mid + 1));
+                System.out.println("Element found at : " + (mid + 1) + " index");
                 count = 0;
                 break;
             }
