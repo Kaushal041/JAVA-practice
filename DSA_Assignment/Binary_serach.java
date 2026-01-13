@@ -1,3 +1,5 @@
+package DSA_Assignment;
+
 public class Binary_serach {
     public static void main(String[] args) {
         
