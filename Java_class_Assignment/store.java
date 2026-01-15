@@ -1,5 +1,6 @@
 package Java_class_Assignment;
 
+import java.util.Scanner;
 
 /* WAP to To implement class store that following specification:
 Data member:
@@ -22,14 +23,15 @@ member function:
   *Showall() that Display all such member values 
   */
   class store {
-    double bill = 0;
-    String fabric_type , cloth_type ;
+    double bill;
+    String fabric_type , cloth_type;
     int quantity ;
     
     public store(String fabric_type,String cloth_type,int quantity){
       this.fabric_type = fabric_type;
       this.cloth_type = cloth_type;
       this.quantity = quantity;
+      this.bill = 0;
     }
     
     void calculate_bill(){
@@ -47,17 +49,28 @@ member function:
         else{
           bill = 900*quantity;
       }}   
-    }
-    void Display(){
       if(bill>4000){
-        bill = (bill*10)/100;
-        System.out.println("Your Total bill with 10% Discount is : "+bill);}
-        else{
-          System.out.println("Your Total bill is : "+bill);
-        }
+        bill = bill - (bill*10)/100;
       }
+      }
+    void Display(){
+      System.out.println("Cloth : "+cloth_type);
+      System.out.println("Fabric : "+fabric_type);
+      System.out.println("Quantity : "+ quantity);
+      System.out.println("Total bill : "+bill );
+    }
       public static void main(String[] args) {
-        store st = new store("cotton","saree",2);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Cloth type saree or jean");
+        String cloth = sc.next();
+
+        System.out.println("Enter Fabric type cotton or silk");
+        String fabric = sc.next();
+
+        System.out.println("Enter quntity of cloth");
+        int qty = sc.nextInt(); 
+
+        store st = new store(fabric,cloth,qty);
         st.calculate_bill();
         st.Display();
     }

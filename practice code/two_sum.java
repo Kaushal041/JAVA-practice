@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class two_sum {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -19,7 +19,7 @@ class Solution {
         int target = sc.nextInt();
         sc.close();
 
-        Solution obj = new Solution();
+        two_sum obj = new two_sum();
         int[] result = obj.twoSum(nums, target);
         if (result[0] != -1) {
             System.out.println("Indexes: " + result[0] + ", " + result[1]);
