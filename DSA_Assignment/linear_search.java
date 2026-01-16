@@ -3,7 +3,7 @@ public class linear_search {
         
     //----------------- Linear Search ----------------//
         int [] arraysearch  = {10,20,30,40,50,60,70,10,80,10,90,100};
-        int target = 100;
+        int target = 10;
         int count = 0;
         for(int i=0;i<arraysearch.length;i++){
         if (arraysearch[i] == target){
