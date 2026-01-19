@@ -3,7 +3,7 @@ public class Binary_serach {
         
         //----------------- Binary Search ----------------//
         int [] arr = {10,20,30,40,50,60,70,80,90,100};
-        int target = 100;
+        int target = 10;
         int start = 0;
         int end = arr.length-1;
         int mid = (start + end)/2;
@@ -19,7 +19,7 @@ public class Binary_serach {
                 end = mid - 1;
                 mid = (start + end)/2;
             }
-            else if(target > arr[mid]){
+            else{
                 start = mid + 1;
                 mid = (start + end)/2;
             }
