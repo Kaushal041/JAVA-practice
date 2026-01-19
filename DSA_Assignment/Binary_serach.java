@@ -1,9 +1,54 @@
+import java.util.Scanner;
+
 public class Binary_serach {
     public static void main(String[] args) {
         
-        //----------------- Binary Search ----------------//
-        int [] arr = {10,20,30,40,50,60,70,80,90,100};
-        int target = 10;
+        //----------------- Binary Search pre-define array----------------//
+        // int [] arr = {10,20,30,40,50,60,70,80,90,100};
+        // int target = 10;
+        // int start = 0;
+        // int end = arr.length-1;
+        // int mid = (start + end)/2;
+        // int count = 1;
+        // int i=0;
+        // while (i<arr.length){
+        //     if (target==arr[mid]){
+        //         System.out.println("Element found at : " + (mid + 1) + " index");
+        //         count = 0;
+        //         break;
+        //     }
+        //     else if(target < arr[mid]){
+        //         end = mid - 1;
+        //         mid = (start + end)/2;
+        //     }
+        //     else{
+        //         start = mid + 1;
+        //         mid = (start + end)/2;
+        //     }
+        //     i++;
+        // }
+        // if(count == 1){
+        //     System.out.println("Element not found in the array");
+        // }
+
+
+        //------------Binary search with user output-------------------------//
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter how many element you want in array -> ");
+        int num = sc.nextInt();
+        int arr[] = new int[num];
+        System.out.println("Enter " + num +" element in array");
+        for(int i = 0; i<num;i++){
+            int insert = sc.nextInt();
+            arr[i] = insert;
+        }
+        System.out.println("Enter element that you want to find ");
+        int target = sc.nextInt();
+        System.out.print("Your Array -> ");
+        for(int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
         int start = 0;
         int end = arr.length-1;
         int mid = (start + end)/2;
@@ -52,6 +97,6 @@ public class Binary_serach {
         //     System.out.println("================================");
 
     
-        
+        sc.close();
     }
 }
