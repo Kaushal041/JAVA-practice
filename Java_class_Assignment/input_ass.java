@@ -6,7 +6,7 @@ public class input_ass{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter three numbers:");
-        int [] num = new int[3];
+        int num[] = new int[3];
         for(int i=0;i<num.length;i++){
             num[i] = sc.nextInt();
         }
