@@ -17,12 +17,13 @@ public class linear_search {
         //     System.out.println("Element not found in the array");
         // }
         // else{
-        //     System.out.println("Total occurrences of element " + target + ": " + count);
-             
+        //     System.out.println("Total occurrences of element " + target + ": " + count); 
         // }        
     
     
-    //-------------------Linear Search with user define array--------------------------//
+    
+    
+        //-------------------Linear Search with user define array--------------------------//
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter how many element you want in array -> ");
         int num = sc.nextInt();
