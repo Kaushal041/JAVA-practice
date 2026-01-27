@@ -13,7 +13,7 @@
   Algorithm for Selection Sort:
     1.Start with the first element of the list.
     2.Find the smallest element at the first position by swapping.
-    3.Place of the smallest elemnet at the first position by swapping.
+    3.Place of the smallest element at the first position by swapping.
     4.Move to the next position and repeat the process for the remaining elements.
     5.Continue until the entire list is sorted.
     6.Stop

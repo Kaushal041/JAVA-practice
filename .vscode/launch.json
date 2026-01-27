@@ -1,0 +1,78 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Binary_serach",
+            "request": "launch",
+            "mainClass": "Binary_serach",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "buleSort",
+            "request": "launch",
+            "mainClass": "buleSort",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "a1_to_A",
+            "request": "launch",
+            "mainClass": "a1_to_A",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "insertion_sort",
+            "request": "launch",
+            "mainClass": "insertion_sort",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "leap_or_not",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.leap_or_not",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "input_ass",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.input_ass",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "bubleSort",
+            "request": "launch",
+            "mainClass": "bubleSort",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "bubbleSort",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "linear_search",
+            "request": "launch",
+            "mainClass": "linear_search",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "quick_sort",
+            "request": "launch",
+            "mainClass": "quick_sort",
+            "projectName": "JAVA-practice"
+        }
+    ]
+}
