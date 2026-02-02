@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "inheritance_practice",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.inheritance_practice",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
             "name": "Binary_serach",
             "request": "launch",
             "mainClass": "Binary_serach",

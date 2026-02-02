@@ -22,10 +22,11 @@ Please show the calling of all such functions using suitable
 objects of such class.
 */
 
-package Java_class_Assignment;
+package methods;
 
 public class resturant {
     public static void main(String[] args) {
         
     }
 }
+m

@@ -1,4 +1,4 @@
-package Java_class_Assignment;
+package methods;
 /*
     Implement a class Employee contains following members
 Data Members:
@@ -26,3 +26,4 @@ public class a {
         
     }
 }
+m

@@ -24,3 +24,4 @@ public class hcf_lcm {
         }
     }
 }
+m

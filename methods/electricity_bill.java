@@ -1,4 +1,4 @@
-package Java_class_Assignment;
+package methods;
 
 public class electricity_bill {
     String acc_number;
