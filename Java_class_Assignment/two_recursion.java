@@ -1,4 +1,4 @@
-package methods;
+package Java_class_Assignment;
 /*
     WAP to define a class in which we have to create two recursive
 functions in which first function return the factorial of a pass

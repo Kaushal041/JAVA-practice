@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sum_of_Digits_Until_Single_Digit",
+            "request": "launch",
+            "mainClass": "Sum_of_Digits_Until_Single_Digit",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Strong_num",
+            "request": "launch",
+            "mainClass": "Strong_num",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "star_pattern",
+            "request": "launch",
+            "mainClass": "star_pattern",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "prime_btw_numbers",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.prime_btw_numbers",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.armstrong",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "prime_or_not",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.prime_or_not",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.palindrome",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "digit_reverse",
+            "request": "launch",
+            "mainClass": "digit_reverse",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "digit_reverse",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.digit_reverse",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "digit_sum",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.digit_sum",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "Array.demo",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
             "name": "inheritance_practice",
             "request": "launch",
             "mainClass": "Java_class_Assignment.inheritance_practice",

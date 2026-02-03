@@ -21,7 +21,7 @@ public class prime_btw_numbers {
                     }
                 }
                 if(isPrime){
-                    System.out.println(j);
+                    System.out.print(j+" ");
                 }
             }
         sc.close();
