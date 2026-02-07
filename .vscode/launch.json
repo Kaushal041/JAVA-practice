@@ -6,6 +6,139 @@
     "configurations": [
         {
             "type": "java",
+            "name": "intraction_inner_outerClass",
+            "request": "launch",
+            "mainClass": "methods.intraction_inner_outerClass",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "static_to_main_access",
+            "request": "launch",
+            "mainClass": "methods.static_to_main_access",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "nested_static_class",
+            "request": "launch",
+            "mainClass": "methods.nested_static_class",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "order_static_execution",
+            "request": "launch",
+            "mainClass": "methods.order_static_execution",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "static_var_inti",
+            "request": "launch",
+            "mainClass": "methods.static_var_inti",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "class_load_static_execution",
+            "request": "launch",
+            "mainClass": "methods.class_load_static_execution",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "static_call_by_class_name",
+            "request": "launch",
+            "mainClass": "methods.static_call_by_class_name",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "without_obj",
+            "request": "launch",
+            "mainClass": "methods.without_obj",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "static_among_all_obj",
+            "request": "launch",
+            "mainClass": "methods.static_among_all_obj",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "count_emp_static",
+            "request": "launch",
+            "mainClass": "methods.count_emp_static",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "display_over",
+            "request": "launch",
+            "mainClass": "methods.display_over",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Add_cont",
+            "request": "launch",
+            "mainClass": "methods.Add_cont",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "diff_area_cont",
+            "request": "launch",
+            "mainClass": "methods.diff_area_cont",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "bankAccount_cont",
+            "request": "launch",
+            "mainClass": "methods.bankAccount_cont",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "student_cont",
+            "request": "launch",
+            "mainClass": "methods.student_cont",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "student",
+            "request": "launch",
+            "mainClass": "Inharitance.student",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "company_question",
+            "request": "launch",
+            "mainClass": "company_question",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "how_length_work",
+            "request": "launch",
+            "mainClass": "how_length_work",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "patterns",
+            "request": "launch",
+            "mainClass": "patterns",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
             "name": "Sum_of_Digits_Until_Single_Digit",
             "request": "launch",
             "mainClass": "Sum_of_Digits_Until_Single_Digit",

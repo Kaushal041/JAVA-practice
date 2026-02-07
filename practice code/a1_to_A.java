@@ -4,7 +4,7 @@ public class a1_to_A {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a number to find letter on that number : ");
         int input = scanner.nextInt();
 
         if (input > 0) {
