@@ -6,6 +6,146 @@
     "configurations": [
         {
             "type": "java",
+            "name": "final_Cal_Square",
+            "request": "launch",
+            "mainClass": "Inharitance.final_Cal_Square",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "final_SS_result",
+            "request": "launch",
+            "mainClass": "Inharitance.final_SS_result",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "final_child",
+            "request": "launch",
+            "mainClass": "Inharitance.final_child",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Login_Attempts",
+            "request": "launch",
+            "mainClass": "Inharitance.Login_Attempts",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Appliance",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Appliance",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Employee",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Employee",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Payment",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Payment",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Bank",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Bank",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Hdfc",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Hdfc",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Sbi",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Sbi",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Rectangle",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Rectangle",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Circle",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Circle",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Rectangle",
+            "request": "launch",
+            "mainClass": "Inharitance.Rectangle",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Circle",
+            "request": "launch",
+            "mainClass": "Inharitance.Circle",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Order_cunstor",
+            "request": "launch",
+            "mainClass": "Inharitance.Order_cunstor",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "SavingAccount",
+            "request": "launch",
+            "mainClass": "Inharitance.SavingAccount",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "car",
+            "request": "launch",
+            "mainClass": "Inharitance.car",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "PermanentEmployee",
+            "request": "launch",
+            "mainClass": "Inharitance.PermanentEmployee",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Inharitance.Employee",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "intraction_inner_outerClass",
+            "request": "launch",
+            "mainClass": "methods.intraction_inner_outerClass",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
             "name": "static_to_main_access",
             "request": "launch",
             "mainClass": "methods.static_to_main_access",
