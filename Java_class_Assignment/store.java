@@ -1,4 +1,4 @@
-package methods;
+package Java_class_Assignment;
 
 import java.util.Scanner;
 

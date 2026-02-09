@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Electricity",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.Electricity",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "store",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.store",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
             "name": "final_Cal_Square",
             "request": "launch",
             "mainClass": "Inharitance.final_Cal_Square",
