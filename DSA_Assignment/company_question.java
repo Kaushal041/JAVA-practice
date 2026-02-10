@@ -70,17 +70,70 @@ Displays the updated list of strings
 public class company_question {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.next();
-        System.out.println("Length of name : "+str.length());
-        System.out.println("Uppercase name : "+str.toUpperCase());
-        StringBuilder rev =  new StringBuilder(str).reverse();
-        System.out.println(rev);
-        if(str.equals(rev))
-        System.out.println("isPalindrome");
-        else
-        System.out.println("Not a Palindrome");
-        System.out.println(str);
+        //----------------------------------Q1----------------------------------
+        // System.out.println("Enter your name : ");
+        // String str = sc.next();
+        // System.out.println("Length of name : "+str.length());
+        // System.out.println("Uppercase name : "+str.toUpperCase());
+        // StringBuilder rev =  new StringBuilder(str).reverse();
+        // System.out.println(rev);
+        // if(str.equals(rev))
+        // System.out.println("isPalindrome");
+        // else
+        // System.out.println("Not a Palindrome");
+        // System.out.println(str);
         
+        //---------------------------------------Q2-----------------------------------
+        // System.out.println("Enter a String : ");
+        // String s1 = sc.nextLine();
+        // System.out.println("Enter a substring : ");
+        // String sb = sc.nextLine();
+        // if(s1.contains(sb)){
+        //     s1 = s1.replace(sb, "replaced");
+        // }
+        // s1 = s1.replace(" ", "_");
+        // System.out.println("Modified String : " +s1);
+
+
+        //----------------------------------Q3-------------------------
+        System.out.println("Enter a password");
+        String pass = sc.nextLine();
+        char pass_arry []= pass.toCharArray();
+        int countalpha = 0;
+        int countschar = 0;
+        int countdigit = 0;
+        String spacial = "";
+
+        for(int i=0;i<pass.length();i++){
+            System.out.println(pass_arry[i]);
+            if(Character.isAlphabetic(pass_arry[i])){
+                countalpha++;
+            }
+            else if(Character.isDigit(pass_arry[i])){
+                countdigit++;
+            }
+            else{
+                spacial += pass_arry[i];
+                countschar++;
+            }
+            if(Character.isUpperCase(pass_arry[i])){
+                pass_arry[i] = Character.toLowerCase(pass_arry[i]);
+            }
+            else{
+                pass_arry[i] = Character.toUpperCase(pass_arry[i]);
+            }
+        }
+        System.out.println("Total Alphabet : " +countalpha);
+        System.out.println("Total Digits : " +countdigit);
+        System.out.println("Total Spacial Charater : " +countschar);
+        System.out.println("Spacial Charater : " +spacial);
+        System.out.println("Final Password");
+        for(int i = 0;i<pass_arry.length;i++){
+            System.out.print(pass_arry[i]);
+        }
         
+
+
+        sc.close();
     }
 }

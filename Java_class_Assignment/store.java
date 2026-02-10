@@ -67,7 +67,7 @@ member function:
         System.out.println("Enter Fabric type cotton or silk");
         String fabric = sc.next();
 
-        System.out.println("Enter quntity of cloth");
+        System.out.println("Enter quntity of cloth"); 
         int qty = sc.nextInt(); 
 
         store st = new store(fabric,cloth,qty);
