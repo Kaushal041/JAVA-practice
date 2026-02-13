@@ -9,3 +9,10 @@ final class final_SecuritySystem {
         System.out.println("final class");
     }
 }
+
+
+class final_SS_result extends final_SecuritySystem {
+    public static void main(String[] args) {
+        
+    }
+}

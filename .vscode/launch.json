@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Shape",
+            "request": "launch",
+            "mainClass": "Inharitance.Shape",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Abst_Shape",
+            "request": "launch",
+            "mainClass": "Inharitance.Abst_Shape",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "star_pattern03",
+            "request": "launch",
+            "mainClass": "star_pattern03",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "pattern03",
+            "request": "launch",
+            "mainClass": "pattern03",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "mathetical_table",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.mathetical_table",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
             "name": "Electricity",
             "request": "launch",
             "mainClass": "Java_class_Assignment.Electricity",

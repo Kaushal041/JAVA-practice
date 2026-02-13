@@ -16,5 +16,7 @@ public class Fibonacci_Series {
         a = c;
         System.out.println(c);
     }
-    }
+    sc.close();    
+}
+
 }

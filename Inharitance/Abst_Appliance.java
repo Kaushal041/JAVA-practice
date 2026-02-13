@@ -14,3 +14,18 @@ abstract  class Abst_Appliance {
         rf.start();
     }
 }
+
+class Abst_Refrigerator extends Abst_Appliance {
+    @Override
+    void start(){
+        System.out.println("Refrigerator is ON");
+    }
+}
+
+
+class Abst_WashMachine extends Abst_Appliance {
+    @Override
+    void start(){
+        System.out.println("Washing Machine is now started");
+    }
+}

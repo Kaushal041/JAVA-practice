@@ -21,3 +21,21 @@ public class Employee {
     }
 
 }
+
+
+class ContractEmployee extends Employee{
+    @Override
+    public void calculateSalary(double salary){
+        salary = salary*8;
+        System.out.println("Contract Employee : " + salary);
+    }
+}
+
+
+ class PermanentEmployee extends Employee{
+    @Override
+    public void calculateSalary(double salary){
+        salary +=10000;
+        System.out.println("Permanent Employee Salary : "+salary);
+    }
+}
