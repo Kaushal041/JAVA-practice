@@ -1,3 +1,25 @@
+/*
+Write programme in Java to implement a class electricity with following specification:
+Data member:
+account number
+name
+unit
+bill member function:
+*A parameterized constructor that will initialise all data member value as passed values and bill is as 0
+* CalCalculateBill() will electricity bill on basis of following condition and initialise it in Bill variable:
+Unit                   Rate
+<=150                  3 Rs/unit
+>150 <=300             4 Rs/unit
+        >300                   5.5 Rs/unit
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*AppliedOffer() will deduct bill on basis of following conditions:
+Bill             Discount
+<= 3000          Nil
+>3000 <= 5000    5%
+>5000            10%
+* showAll () will display all data members values along with Bill.
+
+*/
+
 package methods;
 
 public class electricity_bill {
@@ -31,14 +53,14 @@ public class electricity_bill {
         }
         else{
             System.out.println("10% discount applied");
-            this.bill =this.bill - (this.bill*10)/100;
+            this.bill -= (this.bill*10)/100;
         }
     }
     void ShowAll(){
-        System.out.println("Customer name is "+this.name);
-        System.out.println("Customer's Account Number is : "+this.acc_number);
-        System.out.println("Total units are : " + this.unit);
-        System.out.println("Total payable bill is : "+this.bill);
+        System.out.println("Customer name : "+this.name);
+        System.out.println("Account Number : "+this.acc_number);
+        System.out.println("Total units : " + this.unit);
+        System.out.println("Total payable bill : "+this.bill);
     }
 
 

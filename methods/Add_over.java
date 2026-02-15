@@ -5,7 +5,7 @@
 
 package methods;
 
-public class Add_cont {
+public class Add_over {
     
     public int Add(int num1, int num2){
         return num1+num2;
@@ -19,7 +19,7 @@ public class Add_cont {
         return num1+num2;
     }
     public static void main(String[] args) {
-        Add_cont add = new Add_cont();
+        Add_over add = new Add_over();
         System.out.println("Integer add : "+add.Add(17,3));
         System.out.println("Float add : "+add.Add(17f,3f));
         System.out.println("Double add : "+add.Add(17.0,3.0));

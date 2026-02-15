@@ -7,7 +7,7 @@ public class digit_reverse {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number to get reverse of it");
         int num = sc.nextInt();
-        int rev = 0;
+        int rev;
         while(num!=0){
             int count = num%10;
             rev = count;

@@ -1,8 +1,6 @@
 /*
-1. Write a Java program where Student inherits from Person.
-Read name and age in the parent class and roll number and 
-course in the child class.
-Display all details using a child class object
+1. Write a Java program where Student inherits from Person.Read name and age in the parent class and roll number and 
+course in the child class.Display all details using a child class object
 */
 
 package Inharitance;

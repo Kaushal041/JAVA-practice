@@ -18,7 +18,7 @@ class SavingAccount extends Account {
     }
     
     void show(){
-        System.out.println("Total balance : "+super.balance);
+        System.out.println("Total Balance : "+super.balance);
     }
     public static void main(String[] args) {
         SavingAccount sa = new SavingAccount();

@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "a",
+            "request": "launch",
+            "mainClass": "a",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "Add_over",
+            "request": "launch",
+            "mainClass": "methods.Add_over",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "diff_area_over",
+            "request": "launch",
+            "mainClass": "methods.diff_area_over",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.factorial",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "electricity_bill",
+            "request": "launch",
+            "mainClass": "methods.electricity_bill",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "factorial_using_recursive_function",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.factorial_using_recursive_function",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
+            "name": "hcf_lcm",
+            "request": "launch",
+            "mainClass": "Java_class_Assignment.hcf_lcm",
+            "projectName": "JAVA-practice"
+        },
+        {
+            "type": "java",
             "name": "Shape",
             "request": "launch",
             "mainClass": "Inharitance.Shape",

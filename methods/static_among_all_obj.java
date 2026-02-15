@@ -32,12 +32,16 @@ public class static_among_all_obj {
     // } 
     
     public static void main(String[] args) {
+        
         // static_among_all_obj ob1 = new static_among_all_obj(static_among_all_obj.name);
         // static_among_all_obj.name = "Kaushal Rawat";
         // static_among_all_obj ob2 = new static_among_all_obj(12,static_among_all_obj.name);
         // static_among_all_obj ob3 = new static_among_all_obj(12,static_among_all_obj.name,"MCA");
+        
         static_among_all_obj ob1 = new static_among_all_obj();
+        // new static_among_all_obj();
         static_among_all_obj.name = "Kaushal Rawat";
         static_among_all_obj ob2 = new static_among_all_obj();
+        // new static_among_all_obj();
     }
 }

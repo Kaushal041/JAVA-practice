@@ -4,9 +4,9 @@
 */
 package methods;
 
-public class diff_area_cont {
+public class diff_area_over {
 
-    public diff_area_cont() {
+    public diff_area_over() {
     System.out.println("---------Default Constructor-----------");
     }
 
@@ -22,8 +22,8 @@ public class diff_area_cont {
         System.out.println("Area of Square : " + (length*length));
     }
     public static void main(String[] args) {
-        diff_area_cont d0 = new diff_area_cont();
-        d0.area(10.2);
+        diff_area_over d0 = new diff_area_over();
+        d0.area(10.1);
         d0.area(10,20);
         d0.area(5);
 

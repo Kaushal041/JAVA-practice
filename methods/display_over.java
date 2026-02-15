@@ -25,6 +25,5 @@ public class display_over {
         d.Display(6,3);
         d.Display(3,43,76);
     }
-
-
+    
 }

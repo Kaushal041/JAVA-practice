@@ -9,7 +9,7 @@ public class nested_static_class {
     static class validade{
         static void user_validate(String uname,String pass){
             if(uname.equals("Kaushal") && pass.equals("1234")){
-                System.out.println("Welcome");
+                System.out.println("Welcome "+uname);
             }
             else{
                 System.out.println("Invalid credentials");
